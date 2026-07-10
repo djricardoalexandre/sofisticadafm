@@ -34,8 +34,8 @@ const placeholders = [
     id: 5,
     title: 'Banner 5',
     subtitle: 'Insira sua imagem e link',
-    imageUrl: 'https://images.pexels.com/photos/3785704/pexels-photo-3785704.jpeg?auto=compress&cs=tinysrgb&w=800',
-    linkUrl: 'https://example.com/promo5',
+    imageUrl: '/banner5.jpg',
+    linkUrl: 'https://www.awin1.com/cread.php?awinmid=17729&awinaffid=1768964&campaign=Black+Friday',
   },
   {
     id: 6,
