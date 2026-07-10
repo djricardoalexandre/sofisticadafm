@@ -27,8 +27,8 @@ const placeholders = [
     id: 4,
     title: 'Banner 4',
     subtitle: 'Insira sua imagem e link',
-    imageUrl: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=800',
-    linkUrl: 'https://example.com/promo4',
+    imageUrl: '/banner4.jpg',
+    linkUrl: 'https://www.awin1.com/cread.php?awinmid=70963&awinaffid=1768964&campaign=Home+Calzedonia',
   },
   {
     id: 5,
