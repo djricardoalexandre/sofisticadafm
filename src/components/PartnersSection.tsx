@@ -41,8 +41,8 @@ const partners = [
     id: 6,
     title: 'Parceiro 6',
     subtitle: 'Insira sua imagem e link',
-    imageUrl: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=800',
-    linkUrl: 'https://example.com/parceiro6',
+    imageUrl: '/banner12.jpg',
+    linkUrl: 'https://www.awin1.com/cread.php?awinmid=17652&awinaffid=1768964&campaign=Top',
   },
 ];
 
