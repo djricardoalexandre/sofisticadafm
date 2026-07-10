@@ -41,8 +41,8 @@ const placeholders = [
     id: 6,
     title: 'Banner 6',
     subtitle: 'Insira sua imagem e link',
-    imageUrl: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=800',
-    linkUrl: 'https://example.com/promo6',
+    imageUrl: '/banner6.jpg',
+    linkUrl: 'https://www.magazinevoce.com.br/magazinein_435876/selecao/tvs_0607/',
   },
 ];
 
