@@ -20,8 +20,8 @@ const partners = [
     id: 3,
     title: 'Parceiro 3',
     subtitle: 'Insira sua imagem e link',
-    imageUrl: 'https://images.pexels.com/photos/3785704/pexels-photo-3785704.jpeg?auto=compress&cs=tinysrgb&w=800',
-    linkUrl: 'https://example.com/parceiro3',
+    imageUrl: '/banner9.jpg',
+    linkUrl: 'https://www.magazinevoce.com.br/magazinein_435876/lojista/aliexpress/?page=1&sortOrientation=desc&sortType=soldQuantity',
   },
   {
     id: 4,
