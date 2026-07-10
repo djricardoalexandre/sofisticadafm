@@ -6,8 +6,8 @@ const partners = [
     id: 1,
     title: 'Parceiro 1',
     subtitle: 'Insira sua imagem e link',
-    imageUrl: 'https://images.pexels.com/photos/3785704/pexels-photo-3785704.jpeg?auto=compress&cs=tinysrgb&w=800',
-    linkUrl: 'https://example.com/parceiro1',
+    imageUrl: '/banner7.jpg',
+    linkUrl: 'https://www.magazinevoce.com.br/magazinein_435876/selecao/ud_0607/',
   },
   {
     id: 2,
