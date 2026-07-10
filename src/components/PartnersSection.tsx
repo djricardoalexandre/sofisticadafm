@@ -13,8 +13,8 @@ const partners = [
     id: 2,
     title: 'Parceiro 2',
     subtitle: 'Insira sua imagem e link',
-    imageUrl: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=800',
-    linkUrl: 'https://example.com/parceiro2',
+    imageUrl: '/banner8.jpg',
+    linkUrl: 'https://www.magazinevoce.com.br/magazinein_435876/selecao/moveis_0607/',
   },
   {
     id: 3,
