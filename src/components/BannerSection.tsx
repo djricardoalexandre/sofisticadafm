@@ -50,7 +50,7 @@ export function BannerSection() {
   return (
     <section className="py-12 bg-white">
       <div className="max-w-7xl mx-auto">
-        <Carousel title="Ofertas Especiais">
+        <Carousel title="Ofertas imperdíveis: clique no banner e confira">
           {placeholders.map((item) => (
             <CarouselItem key={item.id}>
               <BannerPlaceholder
