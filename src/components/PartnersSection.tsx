@@ -50,7 +50,7 @@ export function PartnersSection() {
   return (
     <section className="py-16 bg-gradient-to-b from-neutral-50 to-white">
       <div className="max-w-7xl mx-auto">
-        <Carousel title="Parceiros & Promoções">
+        <Carousel title="Clique nos banners e aproveite as ofertas exclusivas">
           {partners.map((item) => (
             <CarouselItem key={item.id}>
               <BannerPlaceholder
