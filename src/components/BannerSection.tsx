@@ -6,8 +6,8 @@ const placeholders = [
     id: 1,
     title: 'Banner 1',
     subtitle: 'Insira sua imagem e link',
-    imageUrl: '/banner2.jpg',
-    linkUrl: 'https://www.awin1.com/cread.php?awinmid=47165&awinaffid=1768964&campaign=Web',
+    imageUrl: '/banner1.jpg',
+    linkUrl: 'https://www.awin1.com/cread.php?awinmid=108626&awinaffid=2978615',
   },
   {
     id: 2,
