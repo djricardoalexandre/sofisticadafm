@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0A0A0A;
+}
+
+/* Range input styling for volume control */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 3px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -4.5px;
+  box-shadow: 0 0 8px rgba(230, 0, 18, 0.4);
+  transition: transform 0.15s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.25);
+}
+
+input[type="range"]::-moz-range-track {
+  height: 3px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 8px rgba(230, 0, 18, 0.4);
+}
+
+/* Focus states */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #E60012;
+  outline-offset: 2px;
+}
+
+::selection {
+  background-color: #E60012;
+  color: white;
+}
+
+/* VU Meter animation - simulates audio modulation */
+@keyframes vuPulse {
+  0% { transform: scaleY(0.2); }
+  15% { transform: scaleY(0.85); }
+  30% { transform: scaleY(0.45); }
+  45% { transform: scaleY(1); }
+  60% { transform: scaleY(0.6); }
+  75% { transform: scaleY(0.9); }
+  100% { transform: scaleY(0.35); }
+}
+
+/* Live dot pulse */
+@keyframes livePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.85); }
+}
+
+.animate-live-pulse {
+  animation: livePulse 1.8s ease-in-out infinite;
+}
+
+/* Smooth glow for play button */
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(230, 0, 18, 0.4); }
+  50% { box-shadow: 0 0 30px rgba(230, 0, 18, 0.6); }
+}
+
+.animate-glow {
+  animation: glowPulse 2.5s ease-in-out infinite;
+}
+
+/* Reveal on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
