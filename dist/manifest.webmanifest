@@ -1,0 +1,16 @@
+{
+  "name": "Sofisticada FM",
+  "short_name": "Sofisticada FM",
+  "description": "A sua rádio premium",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08090a",
+  "theme_color": "#08090a",
+  "orientation": "portrait-primary",
+  "icons": [{
+    "src": "/ChatGPT_Image_17_de_jul._de_2026,_20_18_25-200x200.jpg",
+    "sizes": "200x200",
+    "type": "image/jpeg",
+    "purpose": "any maskable"
+  }]
+}
